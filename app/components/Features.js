@@ -34,11 +34,13 @@ function Features() {
             description="Explore the most viral and trending TikTok locations in any city"
           />
         </div>
+
+        <button className="inline-flex items-center justify-center transition-all ease-in-out gap-2 text-sm font-medium text-black border border-[#ff0050] hover:bg-[#ff0050] hover:text-white h-11 px-8 rounded-md mt-[25px]">
+          Learn More
+        </button>
       </div>
     </Wrapper>
   );
 }
-
-
 
 export default Features;
